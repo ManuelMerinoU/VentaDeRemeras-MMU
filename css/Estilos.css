@@ -413,7 +413,7 @@ div iframe{
 
 /* grid img productos*/
 
-#grid-cont-img{
+/*#grid-cont-img{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(175px, 175px));
     grid-auto-rows: minmax(175px, 175px);
@@ -567,4 +567,4 @@ div iframe{
         -ms-border-radius: 12px;
         -o-border-radius: 12px;
     }
-}
+}*/
