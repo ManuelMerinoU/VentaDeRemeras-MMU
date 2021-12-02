@@ -576,7 +576,14 @@ div iframe{
     align-items: center;
 }
 
-.img-item{
+.productos-img-pelis .pelis{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-item img{
     display: flex;
     align-items: center;
     justify-content: center;
