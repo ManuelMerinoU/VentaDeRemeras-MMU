@@ -12,6 +12,9 @@
 
         <title> Tu Usuario </title>
 
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     </head>
 
     <body>
@@ -44,7 +47,7 @@
             <p> Registrate o ingresa con tu Usuario para disfrutar de los Porductos que About Saints Studio tiene para vos. </p>
         </div>
 
-        <div> 
+        <!--<div> 
             <fieldset>  
                 <legend> Registrate </legend>
                 <form action="" method="post" enctype="multipart/form-data">     
@@ -91,12 +94,40 @@
                     <input type="submit" value="Login">
                 </form>
             </fieldset>
+        </div> -->
+
+        <div class="container">
+            <div class="d-flex flex-row align-items-center justify-content-center">
+                <div class="col-3">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email </label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else. / Nunca compartiremos su correo electrónico con nadie más.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
         </div>
+        
+
+
 
         <footer id="footer">
             <p> Copyright- Todos los derechos reservados. </p>
         </footer>
 
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     </body>
 
