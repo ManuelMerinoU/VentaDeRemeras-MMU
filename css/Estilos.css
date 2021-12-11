@@ -132,85 +132,125 @@ nav ul .active a{
 
 /*foto de fondo con algunos productos*/
 
-#contenedor-foto-fondo{
-    box-sizing: border-box;
-    height: 100vh;
+.fotos-muestra-pasadas{
     width: 100%;
-    margin-top: 30px;
-    padding: 1rem;
+    margin: auto;
+    overflow: hidden;
     background-image: url(../img/posiblefondo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    display: flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items: center;
-    
-}
-
-#contenedor-foto-fondo div{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items: center;
 
 }
 
-#contenedor-foto-fondo div img{
+.fotos-muestra-pasadas ul{
+    padding: 0;
+    display: flex;
+    width: 150%;
+    /*flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    */animation: pasada 20s infinite ;
+    -webkit-animation: pasada 20s infinite ;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+@keyframes pasada{
+    0%{margin-left: 0;}
+    10%{margin-left: 0;}
+
+    20%{margin-left: -100%;}
+    30%{margin-left: -100%;}
+
+    40%{margin-left: -200%;}
+    50%{margin-left: -200%;}
+
+    60%{margin-left: -300%;}
+    70%{margin-left: -300%;}
+
+    80%{margin-left: -400%;}
+    100%{margin-left: -400%;}
+
+}
+
+.fotos-muestra-pasadas ul li{
+    list-style: none;
+    width: 100%;
+}
+
+.fotos-muestra-pasadas ul li img{
     width: 175px;
     height: 175px;
-    padding: 5px;;
-    margin:10px;
-    border-style:groove;
+    padding: 5px;
+    margin:32px;
     position: relative;
-    object-fit: contain;
-
+    border-style: groove;
+    border-color: #0e0d0d;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 @media all and (min-width:769px){
 
-    #contenedor-foto-fondo{
-        box-sizing: border-box;
-        height: 50vh;
+    .fotos-muestra-pasadas{
         width: 100%;
-        margin-top: 30px;
-        padding: 1rem;
+        margin: auto;
+        overflow: hidden;
         background-image: url(../img/posiblefondo.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+    
+    }
+    
+    .fotos-muestra-pasadas ul{
+        padding: 0;
         display: flex;
-        flex-direction: row;
+        width: 150%;
+        /*flex-direction: row;
         justify-content: center;
         align-items: center;
         align-content: center;
+        */animation: pasada 20s infinite ;
+        -webkit-animation: pasada 20s infinite ;
+        animation-direction: alternate;
+        animation-timing-function: ease-in;
     }
     
-    #contenedor-foto-fondo div{
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
+    @keyframes pasada{
+        0%{margin-left: 0;}
+        100%{margin-left: -100%;}
     }
     
-    #contenedor-foto-fondo div img{
+    .fotos-muestra-pasadas ul li{
+        list-style: none;
+        width: 100%;
+    }
+    
+    .fotos-muestra-pasadas ul li img{
         width: 350px;
         height: 350px;
-        padding: 5px;;
+        padding: 5px;
         margin:32px;
-        border-style:groove;
         position: relative;
-        object-fit: contain;
-    
+        border-style: groove;
+        border-color: #0e0d0d;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
     }
 
 }
+
 
 /*info de productos*/
 
