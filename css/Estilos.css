@@ -609,10 +609,23 @@ div iframe{
     }
 }*/
 
+.Categorias h2{
+    font-size: 3rem;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Dongle', sans-serif;
+    font-weight: 300;
+}
+
+
+
+
 .wrap{
-	width: 1100px;
-	margin: 50px auto;
+	margin: 50px;
 	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 	justify-content: center;
 }
 
@@ -684,5 +697,25 @@ div iframe{
 
 .card3{
 	background-image: url(../img/productos/peliculas/peliculas2.jpg);
+	background-size: cover;
+}
+
+.card4{
+	background-image: url(../img/productos/peliculas/peliculas3.jpg);
+	background-size: cover;
+}
+
+.card5{
+	background-image: url(../img/productos/peliculas/peliculas4.jpg);
+	background-size: cover;
+}
+
+.card6{
+	background-image: url(../img/productos/peliculas/peliculas5.jpg);
+	background-size: cover;
+}
+
+.card7{
+	background-image: url(../img/productos/peliculas/peliculas6.jpg);
 	background-size: cover;
 }
