@@ -1,0 +1,25 @@
+/*redes sociales*/
+
+#redessoc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        display: inline-block;
+        width: 128px;
+        margin: 20px;
+        padding: 10px;
+
+        @media all and (min-width:$mediaq-md){
+            width: 256px;
+            margin: 20px;
+            padding: 10px;
+        }
+    }
+
+    @media all and (min-width:$mediaq-md){
+        flex-direction: row;
+    }
+}

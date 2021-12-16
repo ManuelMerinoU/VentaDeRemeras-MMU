@@ -1,0 +1,372 @@
+/*info de productos*/
+
+#pedidos{
+
+    p{
+        font-size: 2rem;
+        line-height: 1;
+        margin: 10px;
+    }
+
+    .pasos{
+        list-style-position: inside;
+        line-height: 1.5;
+        font-family: 'Dongle', sans-serif;
+        font-size: 18px;
+        padding: 10px 1rem 1rem 1rem;
+        margin: 0;
+
+        @media all and (min-width:$mediaq-md){
+            font-size: 25px;
+        }
+    }
+
+    .infoextra{
+        list-style-position: inside;
+        color: #f50d81;
+        margin-left: 12px;
+
+        @media all and (min-width:$mediaq-md){
+            margin-left: 1em;
+        }
+    }
+}
+
+/*pagos en productos*/
+
+#fotos-pagos{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.modified-text-1{
+    display: inline-block;
+
+    p{
+        font-size: 20px;
+        text-align: center;
+        @media all and (min-width:$mediaq-md){
+            font-size: 40px;
+        }
+    }
+
+    img{
+        width: 212px;
+        height: 212px;
+
+        @media all and (min-width:$mediaq-md){
+            width: 412px;
+            height: 412px;
+        }
+    }
+}
+
+/* Catalogo de Productos */
+
+#cat-pelis{
+
+    h2{
+        font-size: 2rem;
+        margin-top: 150px;
+        padding: 1rem;
+        text-align: center;
+        font-family: 'Dongle', sans-serif;
+        font-weight: 300;
+
+        @media all and (min-width:$mediaq-md){
+            font-size: 3rem;
+        }
+    }
+}
+
+#cat-animales{
+
+    h2{
+        font-size: 2rem;
+        margin-top: 150px;
+        padding: 1rem;
+        text-align: center;
+        font-family: 'Dongle', sans-serif;
+        font-weight: 300;
+
+        @media all and (min-width:$mediaq-md){
+            font-size: 3rem;
+        }
+    }
+}
+
+.wrap{
+	margin: 50px;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+	justify-content: center;
+}
+
+.tarjeta-wrap{
+	margin: 10px;
+	perspective: 800;
+    &:hover{
+        .tarjeta{
+            transform: rotateY(180deg);
+            -webkit-transform: rotateY(180deg);
+            -moz-transform: rotateY(180deg);
+            -ms-transform: rotateY(180deg);
+            -o-transform: rotateY(180deg);
+        }
+    }
+}
+
+.tarjeta{
+	width: 175px;
+	height: 175px;
+	background: #ffffff;
+	position: relative;
+	transform-style: preserve-3d;
+	box-shadow: 0px 10px 15px -5px #000000a6;
+    transition: .7s ease;
+	-webkit-transition: .7s ease;
+	-moz-transition: .7s ease;
+	-ms-transition: .7s ease;
+	-o-transition: .7s ease;
+
+    @media all and (min-width:$mediaq-md){
+        width: 350px;
+	    height: 350px;
+    }
+}
+
+.adelante, .atras{
+    width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+
+.adelante{
+	width: 100%;
+}
+
+.atras{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+
+    @media all and (min-width:$mediaq-md){
+        font-size: 2rem;
+    }
+}
+
+/* Peliculas */
+
+.card-peli1{
+	background-image: url(../img/productos/peliculas/peliculas.jpg);
+	background-size: cover;
+    width: 175px;
+    height: 175px;
+
+    @media all and (min-width:$mediaq-md){
+        width: 350px;
+        height: 350px;
+    }
+
+}
+
+.card-peli2{
+	background-image: url(../img/productos/peliculas/peliculas1.jpg);
+	background-size: cover;
+    width: 175px;
+    height: 175px;
+
+    @media all and (min-width:$mediaq-md){
+        width: 350px;
+        height: 350px;
+    }
+}
+
+.card-peli3{
+	background-image: url(../img/productos/peliculas/peliculas2.jpg);
+	background-size: cover;
+    width: 175px;
+    height: 175px;
+
+    @media all and (min-width:$mediaq-md){
+        width: 350px;
+        height: 350px;
+    }
+}
+
+.card-peli4{
+	background-image: url(../img/productos/peliculas/peliculas3.jpg);
+	background-size: cover;
+    width: 175px;
+    height: 175px;
+
+    @media all and (min-width:$mediaq-md){
+        width: 350px;
+        height: 350px;
+    }
+}
+
+.card-peli5{
+	background-image: url(../img/productos/peliculas/peliculas4.jpg);
+	background-size: cover;
+    width: 175px;
+    height: 175px;
+
+    @media all and (min-width:$mediaq-md){
+        width: 350px;
+        height: 350px;
+    }
+}
+
+.card-peli6{
+	background-image: url(../img/productos/peliculas/peliculas5.jpg);
+	background-size: cover;
+    width: 175px;
+    height: 175px;
+
+    @media all and (min-width:$mediaq-md){
+        width: 350px;
+        height: 350px;
+    }
+}
+
+.card-peli7{
+	background-image: url(../img/productos/peliculas/peliculas6.jpg);
+	background-size: cover;
+    width: 175px;
+    height: 175px;
+
+    @media all and (min-width:$mediaq-md){
+        width: 350px;
+        height: 350px;
+    }
+}
+
+/* Animales */
+
+.card-Animal1{
+	background-image: url(../img/productos/animales/animales1.jpg);
+	background-size: cover;
+    width: 175px;
+    height: 175px;
+
+    @media all and (min-width:$mediaq-md){
+        width: 350px;
+        height: 350px;
+    }
+}
+
+.card-Animal2{
+	background-image: url(../img/productos/animales/animales2.jpg);
+	background-size: cover;
+    width: 175px;
+    height: 175px;
+
+    @media all and (min-width:$mediaq-md){
+        width: 350px;
+        height: 350px;
+    }
+}
+
+.card-Animal3{
+	background-image: url(../img/productos/animales/animales3.jpg);
+	background-size: cover;
+    width: 175px;
+    height: 175px;
+
+    @media all and (min-width:$mediaq-md){
+        width: 350px;
+        height: 350px;
+    }
+}
+
+.card-Animal4{
+	background-image: url(../img/productos/animales/animales4.jpg);
+	background-size: cover;
+    width: 175px;
+    height: 175px;
+
+    @media all and (min-width:$mediaq-md){
+        width: 350px;
+        height: 350px;
+    }
+}
+
+.card-Animal5{
+	background-image: url(../img/productos/animales/animales5.jpg);
+	background-size: cover;
+    width: 175px;
+    height: 175px;
+
+    @media all and (min-width:$mediaq-md){
+        width: 350px;
+        height: 350px;
+    }
+}
+
+.card-Animal6{
+	background-image: url(../img/productos/animales/animales6.jpg);
+	background-size: cover;
+    width: 175px;
+    height: 175px;
+
+    @media all and (min-width:$mediaq-md){
+        width: 350px;
+        height: 350px;
+    }
+}
+
+.card-Animal7{
+	background-image: url(../img/productos/animales/animales7.jpg);
+	background-size: cover;
+    width: 175px;
+    height: 175px;
+
+    @media all and (min-width:$mediaq-md){
+        width: 350px;
+        height: 350px;
+    }
+}
+
+.card-Animal8{
+	background-image: url(../img/productos/animales/animales8.jpg);
+	background-size: cover;
+    width: 175px;
+    height: 175px;
+
+    @media all and (min-width:$mediaq-md){
+        width: 350px;
+        height: 350px;
+    }
+}
+
+.card-Animal9{
+	background-image: url(../img/productos/animales/animales9.jpg);
+	background-size: cover;
+    width: 175px;
+    height: 175px;
+
+    @media all and (min-width:$mediaq-md){
+        width: 350px;
+        height: 350px;
+    }
+}
+
