@@ -278,13 +278,15 @@ nav {
     #cat-animales h2 {
       font-size: 3rem; } }
 
-.wrap {
-  margin: 50px;
+.wrap, .atras {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center; }
+
+.wrap {
+  margin: 50px;
+  flex-wrap: wrap; }
 
 .tarjeta-wrap {
   margin: 10px;
@@ -327,10 +329,6 @@ nav {
 
 .atras {
   padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   font-size: 1rem;
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);

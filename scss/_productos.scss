@@ -99,13 +99,17 @@
     }
 }
 
-.wrap{
-	margin: 50px;
-	display: flex;
+%claseconflex{
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
 	justify-content: center;
+}
+
+.wrap{
+	margin: 50px;
+    flex-wrap: wrap;
+    @extend %claseconflex;
 }
 
 .tarjeta-wrap{
@@ -157,10 +161,7 @@
 
 .atras{
     padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    @extend %claseconflex;
     font-size: 1rem;
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
