@@ -1,0 +1,9 @@
+@mixin pxaltos($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin pxbajos($width, $height){
+    width: $width;
+    height: $height;
+}

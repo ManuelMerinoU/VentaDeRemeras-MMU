@@ -178,12 +178,10 @@
 .card-peli1{
 	background-image: url(../img/productos/peliculas/peliculas.jpg);
 	background-size: cover;
-    width: 175px;
-    height: 175px;
+    @include pxbajos(175px, 175px);
 
     @media all and (min-width:$mediaq-md){
-        width: 350px;
-        height: 350px;
+        @include pxaltos(350px, 350px);
     }
 
 }
@@ -191,72 +189,60 @@
 .card-peli2{
 	background-image: url(../img/productos/peliculas/peliculas1.jpg);
 	background-size: cover;
-    width: 175px;
-    height: 175px;
+    @include pxbajos(175px, 175px);
 
     @media all and (min-width:$mediaq-md){
-        width: 350px;
-        height: 350px;
+        @include pxaltos(350px, 350px);
     }
 }
 
 .card-peli3{
 	background-image: url(../img/productos/peliculas/peliculas2.jpg);
 	background-size: cover;
-    width: 175px;
-    height: 175px;
+    @include pxbajos(175px, 175px);
 
     @media all and (min-width:$mediaq-md){
-        width: 350px;
-        height: 350px;
+        @include pxaltos(350px, 350px);
     }
 }
 
 .card-peli4{
 	background-image: url(../img/productos/peliculas/peliculas3.jpg);
 	background-size: cover;
-    width: 175px;
-    height: 175px;
+    @include pxbajos(175px, 175px);
 
     @media all and (min-width:$mediaq-md){
-        width: 350px;
-        height: 350px;
+        @include pxaltos(350px, 350px);
     }
 }
 
 .card-peli5{
 	background-image: url(../img/productos/peliculas/peliculas4.jpg);
 	background-size: cover;
-    width: 175px;
-    height: 175px;
+    @include pxbajos(175px, 175px);
 
     @media all and (min-width:$mediaq-md){
-        width: 350px;
-        height: 350px;
+        @include pxaltos(350px, 350px);
     }
 }
 
 .card-peli6{
 	background-image: url(../img/productos/peliculas/peliculas5.jpg);
 	background-size: cover;
-    width: 175px;
-    height: 175px;
+    @include pxbajos(175px, 175px);
 
     @media all and (min-width:$mediaq-md){
-        width: 350px;
-        height: 350px;
+        @include pxaltos(350px, 350px);
     }
 }
 
 .card-peli7{
 	background-image: url(../img/productos/peliculas/peliculas6.jpg);
 	background-size: cover;
-    width: 175px;
-    height: 175px;
+    @include pxbajos(175px, 175px);
 
     @media all and (min-width:$mediaq-md){
-        width: 350px;
-        height: 350px;
+        @include pxaltos(350px, 350px);
     }
 }
 
@@ -265,108 +251,90 @@
 .card-Animal1{
 	background-image: url(../img/productos/animales/animales1.jpg);
 	background-size: cover;
-    width: 175px;
-    height: 175px;
+    @include pxbajos(175px, 175px);
 
     @media all and (min-width:$mediaq-md){
-        width: 350px;
-        height: 350px;
+        @include pxaltos(350px, 350px);
     }
 }
 
 .card-Animal2{
 	background-image: url(../img/productos/animales/animales2.jpg);
 	background-size: cover;
-    width: 175px;
-    height: 175px;
+    @include pxbajos(175px, 175px);
 
     @media all and (min-width:$mediaq-md){
-        width: 350px;
-        height: 350px;
+        @include pxaltos(350px, 350px);
     }
 }
 
 .card-Animal3{
 	background-image: url(../img/productos/animales/animales3.jpg);
 	background-size: cover;
-    width: 175px;
-    height: 175px;
+    @include pxbajos(175px, 175px);
 
     @media all and (min-width:$mediaq-md){
-        width: 350px;
-        height: 350px;
+        @include pxaltos(350px, 350px);
     }
 }
 
 .card-Animal4{
 	background-image: url(../img/productos/animales/animales4.jpg);
 	background-size: cover;
-    width: 175px;
-    height: 175px;
+    @include pxbajos(175px, 175px);
 
     @media all and (min-width:$mediaq-md){
-        width: 350px;
-        height: 350px;
+        @include pxaltos(350px, 350px);
     }
 }
 
 .card-Animal5{
 	background-image: url(../img/productos/animales/animales5.jpg);
 	background-size: cover;
-    width: 175px;
-    height: 175px;
+    @include pxbajos(175px, 175px);
 
     @media all and (min-width:$mediaq-md){
-        width: 350px;
-        height: 350px;
+        @include pxaltos(350px, 350px);
     }
 }
 
 .card-Animal6{
 	background-image: url(../img/productos/animales/animales6.jpg);
 	background-size: cover;
-    width: 175px;
-    height: 175px;
+    @include pxbajos(175px, 175px);
 
     @media all and (min-width:$mediaq-md){
-        width: 350px;
-        height: 350px;
+        @include pxaltos(350px, 350px);
     }
 }
 
 .card-Animal7{
 	background-image: url(../img/productos/animales/animales7.jpg);
 	background-size: cover;
-    width: 175px;
-    height: 175px;
+    @include pxbajos(175px, 175px);
 
     @media all and (min-width:$mediaq-md){
-        width: 350px;
-        height: 350px;
+        @include pxaltos(350px, 350px);
     }
 }
 
 .card-Animal8{
 	background-image: url(../img/productos/animales/animales8.jpg);
 	background-size: cover;
-    width: 175px;
-    height: 175px;
+    @include pxbajos(175px, 175px);
 
     @media all and (min-width:$mediaq-md){
-        width: 350px;
-        height: 350px;
+        @include pxaltos(350px, 350px);
     }
 }
 
 .card-Animal9{
 	background-image: url(../img/productos/animales/animales9.jpg);
 	background-size: cover;
-    width: 175px;
-    height: 175px;
+    @include pxbajos(175px, 175px);
 
     @media all and (min-width:$mediaq-md){
-        width: 350px;
-        height: 350px;
+        @include pxaltos(350px, 350px);
     }
 }
 
