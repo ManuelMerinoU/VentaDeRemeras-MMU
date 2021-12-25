@@ -278,6 +278,17 @@ nav {
     #cat-animales h2 {
       font-size: 3rem; } }
 
+#cat-calcos h2 {
+  font-size: 2rem;
+  margin-top: 150px;
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Dongle', sans-serif;
+  font-weight: 300; }
+  @media all and (min-width: 769px) {
+    #cat-calcos h2 {
+      font-size: 3rem; } }
+
 .wrap, .atras {
   display: flex;
   flex-direction: row;
@@ -498,6 +509,87 @@ nav {
   height: 175px; }
   @media all and (min-width: 769px) {
     .card-Animal9 {
+      width: 350px;
+      height: 350px; } }
+
+/* Calcos */
+.card-calco1 {
+  background-image: url(../img/productos/calcos/calco1.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-calco1 {
+      width: 350px;
+      height: 350px; } }
+
+.card-calco2 {
+  background-image: url(../img/productos/calcos/calco2.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-calco2 {
+      width: 350px;
+      height: 350px; } }
+
+.card-calco3 {
+  background-image: url(../img/productos/calcos/calco3.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-calco3 {
+      width: 350px;
+      height: 350px; } }
+
+.card-calco4 {
+  background-image: url(../img/productos/calcos/calco4.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-calco4 {
+      width: 350px;
+      height: 350px; } }
+
+.card-calco5 {
+  background-image: url(../img/productos/calcos/calco5.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-calco5 {
+      width: 350px;
+      height: 350px; } }
+
+.card-calco6 {
+  background-image: url(../img/productos/calcos/calco6.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-calco6 {
+      width: 350px;
+      height: 350px; } }
+
+.card-calco7 {
+  background-image: url(../img/productos/calcos/calco7.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-calco7 {
+      width: 350px;
+      height: 350px; } }
+
+.card-calco8 {
+  background-image: url(../img/productos/calcos/calco8.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-calco8 {
       width: 350px;
       height: 350px; } }
 
