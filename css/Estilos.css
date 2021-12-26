@@ -238,6 +238,9 @@ nav {
   justify-content: center;
   align-content: center;
   align-items: center; }
+  @media all and (min-width: 769px) {
+    #fotos-pagos {
+      flex-direction: row; } }
 
 .modified-text-1 {
   display: inline-block; }
