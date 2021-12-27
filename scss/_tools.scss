@@ -7,3 +7,18 @@
     width: $width;
     height: $height;
 }
+
+@mixin h2{
+    h2{
+        font-size: 2rem;
+        margin-top: 150px;
+        padding: 1rem;
+        text-align: center;
+        font-family: 'Dongle', sans-serif;
+        font-weight: 300;
+
+        @media all and (min-width:$mediaq-md){
+            font-size: 3rem;
+        }
+    }
+}

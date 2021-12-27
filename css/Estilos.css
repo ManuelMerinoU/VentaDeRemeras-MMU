@@ -201,7 +201,8 @@ nav {
 .navegacion {
   width: 100%;
   margin-top: 10px;
-  background: #efeeee; }
+  background: #efeeee;
+  margin-bottom: 200px; }
   .navegacion ul {
     list-style: none;
     text-align: center;
@@ -340,7 +341,7 @@ nav {
 #cat-cart h2 {
   font-size: 2rem;
   margin-top: 150px;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
   font-family: 'Dongle', sans-serif;
   font-weight: 300; }
@@ -351,12 +352,23 @@ nav {
 #cat-cant h2 {
   font-size: 2rem;
   margin-top: 150px;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
   font-family: 'Dongle', sans-serif;
   font-weight: 300; }
   @media all and (min-width: 769px) {
     #cat-cant h2 {
+      font-size: 3rem; } }
+
+#cat-nfl h2 {
+  font-size: 2rem;
+  margin-top: 150px;
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Dongle', sans-serif;
+  font-weight: 300; }
+  @media all and (min-width: 769px) {
+    #cat-nfl h2 {
       font-size: 3rem; } }
 
 .wrap, .atras {
@@ -802,6 +814,57 @@ nav {
   height: 175px; }
   @media all and (min-width: 769px) {
     .card-cant4 {
+      width: 350px;
+      height: 350px; } }
+
+/* NFL */
+.card-nfl1 {
+  background-image: url(../img/productos/nfl/nfl1.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-nfl1 {
+      width: 350px;
+      height: 350px; } }
+
+.card-nfl2 {
+  background-image: url(../img/productos/nfl/nfl2.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-nfl2 {
+      width: 350px;
+      height: 350px; } }
+
+.card-nfl3 {
+  background-image: url(../img/productos/nfl/nfl3.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-nfl3 {
+      width: 350px;
+      height: 350px; } }
+
+.card-nfl4 {
+  background-image: url(../img/productos/nfl/nfl4.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-nfl4 {
+      width: 350px;
+      height: 350px; } }
+
+.card-nfl5 {
+  background-image: url(../img/productos/nfl/nfl5.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-nfl5 {
       width: 350px;
       height: 350px; } }
 
