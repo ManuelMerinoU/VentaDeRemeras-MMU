@@ -208,6 +208,54 @@ div{
     }
 }
 
+/* Tabla de talles */
+
+.table{
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 32px;
+
+    thead{
+        
+        tr{
+            border-collapse: collapse;
+            padding: 20px;
+            background-color: #c0bfbf;
+            th{
+                @include tmedida;
+
+            }
+        }
+    }
+
+    tbody{
+        tr{
+            border-collapse: collapse;
+            padding: 20px;
+            &:nth-child(even){
+                background-color: #c0bfbf;
+            }
+            &:hover{
+                background-color: #e7e7e769;
+            }
+
+            th{
+                @include tmedida;
+
+            }
+
+            td{
+                @include tmedida;
+
+            }
+        }
+
+        
+    }
+}
+
+
 /* footer */
 
 #footer{

@@ -165,6 +165,36 @@ div iframe {
     .form-login a:hover {
       text-decoration: underline; }
 
+/* Tabla de talles */
+.table {
+  border: 1px solid;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 32px; }
+  .table thead tr {
+    border-collapse: collapse;
+    padding: 20px;
+    background-color: #c0bfbf; }
+    .table thead tr th {
+      border-collapse: collapse;
+      padding: 20px;
+      text-align: left; }
+  .table tbody tr {
+    border-collapse: collapse;
+    padding: 20px; }
+    .table tbody tr:nth-child(even) {
+      background-color: #c0bfbf; }
+    .table tbody tr:hover {
+      background-color: #e7e7e769; }
+    .table tbody tr th {
+      border-collapse: collapse;
+      padding: 20px;
+      text-align: left; }
+    .table tbody tr td {
+      border-collapse: collapse;
+      padding: 20px;
+      text-align: left; }
+
 /* footer */
 #footer p {
   font-family: 'Dongle', sans-serif;
