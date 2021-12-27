@@ -201,8 +201,7 @@ nav {
 .navegacion {
   width: 100%;
   margin-top: 10px;
-  background: #efeeee;
-  margin-bottom: 200px; }
+  background: #efeeee; }
   .navegacion ul {
     list-style: none;
     text-align: center;
@@ -304,10 +303,22 @@ nav {
         width: 412px;
         height: 412px; } }
 
+/* Foto fondo de productos */
+.Foto-div-prduc img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 323px;
+  height: 156px;
+  margin: auto; }
+  @media all and (min-width: 769px) {
+    .Foto-div-prduc img {
+      width: 970px;
+      height: 470px; } }
+
 /* Catalogo de Productos */
 #cat-pelis h2 {
   font-size: 2rem;
-  margin-top: 150px;
   padding: 1rem;
   text-align: center;
   font-family: 'Dongle', sans-serif;
@@ -318,7 +329,6 @@ nav {
 
 #cat-animales h2 {
   font-size: 2rem;
-  margin-top: 150px;
   padding: 1rem;
   text-align: center;
   font-family: 'Dongle', sans-serif;
@@ -329,7 +339,6 @@ nav {
 
 #cat-calcos h2 {
   font-size: 2rem;
-  margin-top: 150px;
   padding: 1rem;
   text-align: center;
   font-family: 'Dongle', sans-serif;
@@ -340,7 +349,6 @@ nav {
 
 #cat-cart h2 {
   font-size: 2rem;
-  margin-top: 150px;
   padding: 1rem;
   text-align: center;
   font-family: 'Dongle', sans-serif;
@@ -351,7 +359,6 @@ nav {
 
 #cat-cant h2 {
   font-size: 2rem;
-  margin-top: 150px;
   padding: 1rem;
   text-align: center;
   font-family: 'Dongle', sans-serif;
@@ -362,7 +369,6 @@ nav {
 
 #cat-nfl h2 {
   font-size: 2rem;
-  margin-top: 150px;
   padding: 1rem;
   text-align: center;
   font-family: 'Dongle', sans-serif;
