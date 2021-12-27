@@ -337,6 +337,28 @@ nav {
     #cat-calcos h2 {
       font-size: 3rem; } }
 
+#cat-cart h2 {
+  font-size: 2rem;
+  margin-top: 150px;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Dongle', sans-serif;
+  font-weight: 300; }
+  @media all and (min-width: 769px) {
+    #cat-cart h2 {
+      font-size: 3rem; } }
+
+#cat-cant h2 {
+  font-size: 2rem;
+  margin-top: 150px;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Dongle', sans-serif;
+  font-weight: 300; }
+  @media all and (min-width: 769px) {
+    #cat-cant h2 {
+      font-size: 3rem; } }
+
 .wrap, .atras {
   display: flex;
   flex-direction: row;
@@ -638,6 +660,148 @@ nav {
   height: 175px; }
   @media all and (min-width: 769px) {
     .card-calco8 {
+      width: 350px;
+      height: 350px; } }
+
+/* Cartoons */
+.card-cart1 {
+  background-image: url(../img/productos/cartoons/cart1.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-cart1 {
+      width: 350px;
+      height: 350px; } }
+
+.card-cart2 {
+  background-image: url(../img/productos/cartoons/cart2.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-cart2 {
+      width: 350px;
+      height: 350px; } }
+
+.card-cart3 {
+  background-image: url(../img/productos/cartoons/cart3.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-cart3 {
+      width: 350px;
+      height: 350px; } }
+
+.card-cart4 {
+  background-image: url(../img/productos/cartoons/cart4.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-cart4 {
+      width: 350px;
+      height: 350px; } }
+
+.card-cart5 {
+  background-image: url(../img/productos/cartoons/cart5.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-cart5 {
+      width: 350px;
+      height: 350px; } }
+
+.card-cart6 {
+  background-image: url(../img/productos/cartoons/cart6.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-cart6 {
+      width: 350px;
+      height: 350px; } }
+
+.card-cart7 {
+  background-image: url(../img/productos/cartoons/cart7.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-cart7 {
+      width: 350px;
+      height: 350px; } }
+
+.card-cart8 {
+  background-image: url(../img/productos/cartoons/cart8.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-cart8 {
+      width: 350px;
+      height: 350px; } }
+
+.card-cart9 {
+  background-image: url(../img/productos/cartoons/cart9.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-cart9 {
+      width: 350px;
+      height: 350px; } }
+
+.card-cart10 {
+  background-image: url(../img/productos/cartoons/cart10.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-cart10 {
+      width: 350px;
+      height: 350px; } }
+
+/* Cantatntes */
+.card-cant1 {
+  background-image: url(../img/productos/cantantes/cantante1.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-cant1 {
+      width: 350px;
+      height: 350px; } }
+
+.card-cant2 {
+  background-image: url(../img/productos/cantantes/cantante2.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-cant2 {
+      width: 350px;
+      height: 350px; } }
+
+.card-cant3 {
+  background-image: url(../img/productos/cantantes/cantante3.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-cant3 {
+      width: 350px;
+      height: 350px; } }
+
+.card-cant4 {
+  background-image: url(../img/productos/cantantes/cantante4.jpg);
+  background-size: cover;
+  width: 175px;
+  height: 175px; }
+  @media all and (min-width: 769px) {
+    .card-cant4 {
       width: 350px;
       height: 350px; } }
 
