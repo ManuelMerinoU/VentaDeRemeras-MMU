@@ -3,21 +3,21 @@
 #pedidos{
 
     p{
-        font-size: 2rem;
+        font-size: 1.5rem;
         line-height: 1;
         margin: 10px;
     }
 
     .pasos{
         list-style-position: inside;
-        line-height: 1.5;
-        font-family: 'Dongle', sans-serif;
-        font-size: 18px;
+        line-height: 1.6;
+        font-family: 'Mandali', sans-serif;
+        font-size: 13px;
         padding: 10px 1rem 1rem 1rem;
         margin: 0;
 
         @media all and (min-width:$mediaq-md){
-            font-size: 25px;
+            font-size: 1.2rem;
         }
     }
 
@@ -54,7 +54,7 @@
         font-size: 20px;
         text-align: center;
         @media all and (min-width:$mediaq-md){
-            font-size: 40px;
+            font-size: 30px;
         }
     }
 
@@ -160,8 +160,8 @@
 }
 
 .adelante, .atras{
-    width: 100%;
-	height: 100%;
+    /*width: 100%;
+	height: 100%;*/
 	position:map-get($map, aposition);
 	top: 0;
 	left: 0;
@@ -176,7 +176,7 @@
 .atras{
     padding: 20px;
     @extend %claseconflex;
-    font-size: 1rem;
+    font-size: 0.6rem;
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
@@ -184,8 +184,25 @@
     -o-transform: rotateY(180deg);
 
     @media all and (min-width:$mediaq-md){
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
+
+    div{
+        
+        text-align: center;
+
+        p{
+            font-size: 12px;
+            padding: 10px;
+            
+            @media all and (min-width:$mediaq-md){
+                font-size: 20px;
+                padding: 40px;
+            }
+        }
+        
+    }
+
 }
 
 /* Peliculas */

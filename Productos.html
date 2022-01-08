@@ -26,23 +26,58 @@
             </div>
         </header>
 
-        <nav>
-            <ul>    
-                <li> <a href="index.html"> Inicio </a> </li>
-
-                <li> <a href="index.html#Nosotros"> sobre nosotros </a> </li>
-
-                <li> <a href="Usuario.html"> usuario </a> </li>
-
-                <li class="active"> <a href="Productos.html"> Productos </a> </li>
-
-                <li> <a href="Contactanos.html"> Contactanos </a> </li>
-
-                <li> <a href="SoporteT.html"> Soporte tecnico </a> </li>
-
-                <li> <a href="#footer"> Derechos de Autor </a> </li>
-
-            </ul>
+        <nav class="nav-contenedor">
+		
+            <div class="contenedor-botones">
+                <button class="boton recorrido">
+                    <span><a href="index.html"> Inicio </a></span>
+                    <svg>
+                        <rect x="0" y="0" fill="none"></rect>
+                    </svg>
+                </button>
+    
+                <button class="boton recorrido">
+                    <span><a href="index.html"> sobre nosotros </a></span>
+                    <svg>
+                        <rect x="0" y="0" fill="none"></rect>
+                    </svg>
+                </button>
+    
+                <button class="boton recorrido">
+                    <span><a href="Usuario.html"> usuario </a></span>
+                    <svg>
+                        <rect x="0" y="0" fill="none"></rect>
+                    </svg>
+                </button>
+    
+                <button class="boton recorrido">
+                    <span><a href="Productos.html"> Productos </a></span>
+                    <svg>
+                        <rect x="0" y="0" fill="none"></rect>
+                    </svg>
+                </button>
+    
+                <button class="boton recorrido">
+                    <span><a href="Contactanos.html"> Contactanos </a></span>
+                    <svg>
+                        <rect x="0" y="0" fill="none"></rect>
+                    </svg>
+                </button>
+    
+                <button class="boton recorrido">
+                    <span><a href="SoporteT.html"> Soporte tecnico </a></span>
+                    <svg>
+                        <rect x="0" y="0" fill="none"></rect>
+                    </svg>
+                </button>
+    
+                <button class="boton recorrido">
+                    <span><a href="#footer"> Derechos de Autor </a></span>
+                    <svg>
+                        <rect x="0" y="0" fill="none"></rect>
+                    </svg>
+                </button>
+            </div>
         </nav>
 
         <article>
@@ -77,7 +112,7 @@
             </div>
         </article>
 
-        <div class="navegacion">
+        <!--<div class="navegacion">
 			<ul class="menu">
 				<li><a href="Talles.html"> Tabla de Talles </a></li>
 				<li><a href="envios.html"> Envios </a></li>
@@ -93,7 +128,53 @@
 				</li>
 				<li><a href="Pagos.html"> Medios de Pagos </a></li>
 			</ul>
-		</div>
+		</div>-->
+
+        <nav class="nav-contenedor">
+		
+            <div class="contenedor-botones-nav-produc">
+                <button class="boton recorrido">
+                    <span><a href="Talles.html"> Tabla de Talles </a></span>
+                    <svg>
+                        <rect x="0" y="0" fill="none"></rect>
+                    </svg>
+                </button>
+    
+                <button class="boton recorrido">
+                    <span><a href="envios.html"> Envios </a></span>
+                    <svg>
+                        <rect x="0" y="0" fill="none"></rect>
+                    </svg>
+                </button>
+    
+                <button class="boton recorrido">
+                    <span><a href="Pagos.html"> Medios de Pagos </a></span>
+                    <svg>
+                        <rect x="0" y="0" fill="none"></rect>
+                    </svg>
+                </button>
+
+                <div class="navegacion">
+                    <ul class="menu">
+                        <li><a href="#categorias">CATEGORIAS</a>
+                            <ul class="submenu">
+                                <li><a href="#cat-pelis">PELICULAS</a></li><br/>
+                                <li><a href="#cat-animales">ANIMALITOS</a></li><br/>
+                                <li><a href="#cat-calcos">CALCOS</a></li><br/>
+                                <li><a href="#cat-cart">CARTOONS</a></li><br/>
+                                <li><a href="#cat-cant">CANTANTES</a></li><br/>
+                                <li><a href="#cat-nfl">N F L</a></li><br/>
+                            </ul>
+
+                            <svg>
+                                <rect x="0" y="0" fill="none"></rect>
+                            </svg>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
         <div class="Foto-div-prduc">
             <img src="img/div.png" alt="div">
@@ -106,13 +187,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-peli1"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -120,13 +201,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-peli2"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -134,13 +215,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-peli3"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -149,13 +230,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-peli4"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -164,13 +245,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-peli5"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -179,13 +260,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-peli6"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -194,13 +275,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-peli7"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -217,13 +298,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-Animal1"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -231,13 +312,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-Animal2"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -245,13 +326,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-Animal3"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -260,13 +341,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-Animal4"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -275,13 +356,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-Animal5"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -290,13 +371,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-Animal6"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -305,13 +386,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-Animal7"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -320,13 +401,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-Animal8"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -335,13 +416,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-Animal9"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -358,13 +439,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-calco1"></div>
                     <div class="atras">
-                        <ul>
-                            <li> Plancha de 12 calcos </li>
+                        <div>
+                            <p> Plancha de 12 calcos </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $250 </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $250 </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -373,13 +454,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-calco2"></div>
                     <div class="atras">
-                        <ul>
-                            <li> Plancha de 12 calcos </li>
+                        <div>
+                            <p> Plancha de 12 calcos </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $250 </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $250 </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -388,13 +469,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-calco3"></div>
                     <div class="atras">
-                        <ul>
-                            <li> Plancha de 12 calcos </li>
+                        <div>
+                            <p> Plancha de 12 calcos </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $250 </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $250 </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -403,13 +484,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-calco4"></div>
                     <div class="atras">
-                        <ul>
-                            <li> Plancha de 12 calcos </li>
+                        <div>
+                            <p> Plancha de 12 calcos </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $250 </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $250 </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -418,13 +499,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-calco5"></div>
                     <div class="atras">
-                        <ul>
-                            <li> Plancha de 12 calcos </li>
+                        <div>
+                            <p> Plancha de 12 calcos </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $250 </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $250 </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -433,13 +514,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-calco6"></div>
                     <div class="atras">
-                        <ul>
-                            <li> Plancha de 12 calcos </li>
+                        <div>
+                            <p> Plancha de 12 calcos </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $250 </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $250 </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -448,30 +529,30 @@
                 <div class="tarjeta">
                     <div class="adelante card-calco7"></div>
                     <div class="atras">
-                        <ul>
-                            <li> Plancha de 12 calcos </li>
+                        <div>
+                            <p> Plancha de 12 calcos </p>
         
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                 
-                            <li> <a href="Pagos.html"> Precio:</a> $250 </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $250 </p>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="tarjeta-wrap">
-                    <div class="tarjeta">
-                        <div class="adelante card-calco8"></div>
-                        <div class="atras">
-                            <ul>
-                                <li> Plancha de 12 calcos </li>
-        
-                                <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
-                
-                                <li> <a href="Pagos.html"> Precio:</a> $250 </li>
-                            </ul>
+                <div class="tarjeta">
+                    <div class="adelante card-calco8"></div>
+                    <div class="atras">
+                        <div>
+                            <p> Plancha de 12 calcos </p>
+            
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
+                    
+                            <p> <a href="Pagos.html"> Precio:</a> $250 </p>
                         </div>
                     </div>
+                </div>
             </div>
         </div>
 
@@ -486,13 +567,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-cart1"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
             
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                     
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -501,13 +582,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-cart2"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
             
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                     
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -516,13 +597,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-cart3"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
             
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                     
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -531,13 +612,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-cart4"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
             
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                     
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -546,13 +627,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-cart5"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
             
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                     
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -561,13 +642,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-cart6"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
             
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                     
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -576,13 +657,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-cart7"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
             
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                     
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -591,13 +672,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-cart8"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
             
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                     
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -606,13 +687,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-cart9"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
             
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                     
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -621,13 +702,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-cart10"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
             
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                     
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -644,13 +725,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-cant1"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
             
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                     
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -659,13 +740,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-cant2"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
             
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                     
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -674,13 +755,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-cant3"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
             
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                     
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -689,13 +770,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-cant4"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
             
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                     
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -712,13 +793,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-nfl1"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
             
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                     
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -727,13 +808,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-nfl2"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
             
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                     
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -742,13 +823,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-nfl3"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
             
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                     
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -757,13 +838,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-nfl4"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
             
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                     
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -772,13 +853,13 @@
                 <div class="tarjeta">
                     <div class="adelante card-nfl5"></div>
                     <div class="atras">
-                        <ul>
-                            <li> <a href="Talles.html"> Talles</a> del "S" al "XXL" </li>
+                        <div>
+                            <p> <a href="Talles.html"> Talles</a> del "S" al "XXL" </p>
             
-                            <li> <a href="envios.html"> Envio</a> a cualquier parte </li>
+                            <p> <a href="envios.html"> Envio</a> a cualquier parte </p>
                     
-                            <li> <a href="Pagos.html"> Precio:</a> $950 p/u </li>
-                        </ul>
+                            <p> <a href="Pagos.html"> Precio:</a> $950 p/u </p>
+                        </div>
                     </div>
                 </div>
             </div>
