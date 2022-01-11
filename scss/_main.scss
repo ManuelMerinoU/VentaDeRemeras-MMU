@@ -1,6 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Lobster&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Mandali&display=swap');
-
 
 *{ 
     margin: 0;
@@ -289,7 +287,6 @@ div{
             border-bottom: 1px solid;
             font-size: 25px;
         }
-
     }
 
     .controls {
@@ -369,7 +366,6 @@ div{
             background-color: #c0bfbf;
             th{
                 @include tmedida;
-
             }
         }
     }
@@ -387,12 +383,10 @@ div{
 
             th{
                 @include tmedida;
-
             }
 
             td{
                 @include tmedida;
-
             }
         }
     }

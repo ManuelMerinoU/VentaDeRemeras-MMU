@@ -1,46 +1,5 @@
 /*menu nav de la pag*/
 
-
-/*@media all and (min-width:$mediaq-md){
-    navmobile{
-        background-color: #efeeee;
-        width: 100%;
-    
-        ul{
-            list-style-type: none;
-            text-align: center;
-    
-            li{
-                display: inline-block;
-                margin-right: 1rem;
-                font-size: 1.25rem;
-    
-                a{
-                    text-decoration: none;
-                    color: #000000;
-                    &:hover{
-                        color: #06afa7;
-                        transition: all .3s;
-                    }
-                }
-                @media all and (min-width:$mediaq-md){
-                    font-size: 2.5rem;
-                }
-            }
-    
-        }
-    
-        .active{
-            
-            a{
-            text-decoration: none;
-            color: #cfcfcf
-            }
-       } 
-    }
-}*/
-
-
 .nav-contenedor {
 	margin: auto;
 	display: flex;

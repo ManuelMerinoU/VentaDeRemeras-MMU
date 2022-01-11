@@ -188,9 +188,7 @@
     }
 
     div{
-        
         text-align: center;
-
         p{
             font-size: 12px;
             padding: 10px;
@@ -200,9 +198,7 @@
                 padding: 40px;
             }
         }
-        
     }
-
 }
 
 /* Peliculas */
@@ -215,7 +211,6 @@
     @media all and (min-width:$mediaq-md){
         @include pxaltos(350px, 350px);
     }
-
 }
 
 .card-peli2{
