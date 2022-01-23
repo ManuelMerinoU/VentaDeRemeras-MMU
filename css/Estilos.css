@@ -321,7 +321,8 @@ nav {
     nav ul li {
       display: inline-block;
       margin-right: 1rem;
-      font-size: 1rem; }
+      font-size: 0.75rem;
+      text-transform: uppercase; }
       nav ul li a {
         text-decoration: none;
         color: #000000; }
@@ -330,7 +331,7 @@ nav {
           transition: all .3s; }
       @media all and (min-width: 769px) {
         nav ul li {
-          font-size: 2rem; } }
+          font-size: 1.5rem; } }
   nav .active a {
     text-decoration: none;
     color: #cfcfcf; }
@@ -343,10 +344,11 @@ nav {
   .navegacion ul {
     list-style: none;
     text-align: center;
-    font-size: 1rem; }
+    font-size: 0.75rem;
+    text-transform: uppercase; }
     @media all and (min-width: 769px) {
       .navegacion ul {
-        font-size: 2rem; } }
+        font-size: 1.5rem; } }
   @media all and (min-width: 769px) {
     .navegacion {
       margin-top: 20px; } }
@@ -389,29 +391,29 @@ nav {
     text-decoration: none; }
 
 /*info de productos*/
-#pedidos p {
-  font-size: 1.5rem;
-  line-height: 1;
-  margin: 10px; }
-
-#pedidos .pasos {
-  list-style-position: inside;
-  line-height: 1.6;
-  font-family: 'Mandali', sans-serif;
-  font-size: 13px;
-  padding: 10px 1rem 1rem 1rem;
-  margin: 0; }
-  @media all and (min-width: 769px) {
-    #pedidos .pasos {
-      font-size: 1.2rem; } }
-
-#pedidos .infoextra {
-  list-style-position: inside;
-  color: #f50d81;
-  margin-left: 12px; }
-  @media all and (min-width: 769px) {
-    #pedidos .infoextra {
-      margin-left: 1em; } }
+#pedidos {
+  text-align: center; }
+  #pedidos p {
+    font-size: 1.5rem;
+    line-height: 1;
+    margin: 10px; }
+  #pedidos .pasos {
+    list-style-position: inside;
+    line-height: 1.6;
+    font-family: 'Mandali', sans-serif;
+    font-size: 13px;
+    padding: 10px 1rem 1rem 1rem;
+    margin: 0; }
+    @media all and (min-width: 769px) {
+      #pedidos .pasos {
+        font-size: 1.2rem; } }
+  #pedidos .infoextra {
+    list-style-position: inside;
+    color: #f50d81;
+    margin-left: 12px; }
+    @media all and (min-width: 769px) {
+      #pedidos .infoextra {
+        margin-left: 1em; } }
 
 /*pagos en productos*/
 #fotos-pagos {

@@ -11,8 +11,8 @@ nav{
         li{
             display: inline-block;
             margin-right: 1rem;
-            font-size: 1rem;
-
+            font-size: 0.75rem;
+			text-transform: uppercase;
             a{
                 text-decoration: none;
                 color: #000000;
@@ -22,7 +22,7 @@ nav{
                 }
             }
             @media all and (min-width:$mediaq-md){
-                font-size: 2rem;
+                font-size: 1.5rem;
             }
         }
 
@@ -47,10 +47,11 @@ nav{
     ul{
         list-style: none;
         text-align: center;
-        font-size: 1rem;
+        font-size: 0.75rem;
+		text-transform: uppercase;
 
         @media all and (min-width:$mediaq-md){
-            font-size: 2rem;
+            font-size: 1.5rem;
         }
     }
     @media all and (min-width:$mediaq-md){
