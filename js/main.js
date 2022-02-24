@@ -25,17 +25,42 @@ else{
     alert("Hola " + userName + "" + " Disfrutá Nuestro Sitio Web =)");
 }
 
-let remeras= 'Remeras' 
-let stockRemeras= 100 
-let preRem= 950
+const sobreMi = {
+    nombre: 'Manuel',
+    apellido: 'Merino Urquiza',
+    pais: 'Argentina',
+    estudios: 'Carrera de FullStack en Coder',
+    trabajando: true,
+    edad: 21,
+}
+console.log(sobreMi);
 
-let calcos= 'Calcos' 
+/*let remeras= 'Remeras' 
+let stockRemeras= 100 
+let preRem= 950*/
+
+/*let calcos= 'Calcos' 
 let stockCalcos= 200  
-let preCal= 250 
+let preCal= 250*/
+
+const tlp = ["remeras", 'calcos', 'dibujos'];
+
+console.log(tlp.length);
+console.log(tlp.indexOf('calcos'));
+
+
+function Productos (nombreProducto, stockProducto, precioProducto){
+    this.nombre = nombreProducto;
+    this.stock = stockProducto;
+    this.precio = precioProducto;
+} 
+
+const producto1 = new Productos('Remeras', 100, 950);
+const producto2 = new Productos('Calcos', 200, 250);
 
 let cantidadProductos = parseInt(prompt("Ingrese la Cantidad de Productos Distintos que desea, ENTRE 1 y 2 (Los productos que tenemos son Remeras o Calcos), o marque dos veces el  mismo en el caso que su compra supere el stock deseado."))
 
-let compra= prompt("En el caso de que quiera Comprar nuestros productos, ¿Desea Remeras Estampadas o Calcos? ")
+let compra= prompt("En el caso de que quiera Comprar nuestros productos, ¿Desea Remeras o Calcos? ")
 
 function stock(cantidad, producto, stock){
     alert("No tenemos Disponible la cantidad total de " + cantidad + " " + producto + ", Puede comprar un Maximo de " + stock)
@@ -43,30 +68,30 @@ function stock(cantidad, producto, stock){
 
 for(let i = 0; i < cantidadProductos; i++ ){
 
-    if(compra == remeras){
+    if(compra == producto1.nombre){
         let cantCompradaR= parseInt(prompt("¿Cuantas Remeras desea?"));
     
-        if(cantCompradaR <= stockRemeras){
+        if(cantCompradaR <= producto1.stock){
     
-            let totalCompra = cantCompradaR * preRem;
+            let totalCompra = cantCompradaR * producto1.precio;
     
-            alert("Su compra de " + cantCompradaR + remeras + " Tiene un Precio de $" + totalCompra)
+            alert("Su compra de " + cantCompradaR + producto1.nombre + " Tiene un Precio de $" + totalCompra)
         }
         else{
-            stock(cantCompradaR, remeras, stockRemeras)
+            stock(cantCompradaR, producto1.nombre, producto1.stock)
         }
     }
-    else if(compra == calcos){
+    else if(compra == producto2.nombre){
         let cantComprada= parseInt(prompt("¿Cuantas Planchas o calcomanias desea?"));
     
-        if(cantComprada <= stockCalcos){
+        if(cantComprada <= producto2.stock){
     
-            let totalCompra = cantComprada * preCal;
+            let totalCompra = cantComprada * producto2.precio;
     
-            alert("Su compra de " + cantComprada + " " + calcos + " Tiene un Precio de $" + totalCompra)
+            alert("Su compra de " + cantComprada + " " + producto2.nombre + " Tiene un Precio de $" + totalCompra)
         }
         else{
-            stock(cantComprada, calcos, stockCalcos)
+            stock(cantComprada, producto2.nombre, producto2.stock)
         }
     }
     else{
