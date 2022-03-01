@@ -66,6 +66,8 @@ function stock(cantidad, producto, stock){
     alert("No tenemos Disponible la cantidad total de " + cantidad + " " + producto + ", Puede comprar un Maximo de " + stock)
 }
 
+console.log( tlp.some((el) => el.producto1 == "Cuadros"))
+
 for(let i = 0; i < cantidadProductos; i++ ){
 
     if(compra == producto1.nombre){
