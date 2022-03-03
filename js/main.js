@@ -39,9 +39,9 @@ console.log(sobreMi);
 let stockRemeras= 100 
 let preRem= 950*/
 
-/*let calcos= 'Calcos' 
-let stockCalcos= 200  
-let preCal= 250*/
+// let calcos= 'Calcos' 
+// let stockCalcos= 200  
+// let preCal= 250
 
 const tlp = ["remeras", 'calcos', 'dibujos'];
 
@@ -101,3 +101,11 @@ for(let i = 0; i < cantidadProductos; i++ ){
     }
 
 }
+// con alt gr + al lado del entre ``
+
+let bienvenido = document.createElement("h2")
+
+bienvenido.innerText = "Bienvenido a Mi Pagina web"
+
+document.body.prepend(bienvenido)
+
