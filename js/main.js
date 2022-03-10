@@ -1,3 +1,5 @@
+// ''
+
 
 function saludo(nombre){
     alert("HOLA " + nombre + " Me encuentro Trabajando en esta Pagina =)");
@@ -34,6 +36,15 @@ const sobreMi = {
     edad: 21,
 }
 console.log(sobreMi);
+
+let botonInfo = document.querySelector ('btninfo')
+
+botonInfo = addEventListener ('click', infopag)
+
+function infopag(){
+    alert("Esta es una pagina que le estoy desarrollando a una amiga para su proyecto personal, el cual consta en la venta de remeras grabadas con cualquier tipo de diseño, Calcos y en un futuro dibujos o ilustrasiones propias")
+}
+
 
 /*let remeras= 'Remeras' 
 let stockRemeras= 100 
