@@ -213,7 +213,7 @@ div iframe {
     opacity: 1; } }
 
 /* Usuario */
-.form-login {
+#formlogin {
   width: 200px;
   height: 170px;
   background: #838282;
@@ -222,12 +222,12 @@ div iframe {
   padding: 10px 15px;
   color: white; }
   @media all and (min-width: 769px) {
-    .form-login {
+    #formlogin {
       width: 400px;
       height: 340px;
       box-shadow: 7px 13px 37px #000;
       padding: 20px 30px; } }
-  .form-login h2 {
+  #formlogin h2 {
     margin: 0;
     text-align: center;
     height: 20px;
@@ -235,12 +235,12 @@ div iframe {
     border-bottom: 1px solid;
     font-size: 12.5px; }
     @media all and (min-width: 769px) {
-      .form-login h2 {
+      #formlogin h2 {
         height: 40px;
         margin-bottom: 30px;
         border-bottom: 1px solid;
         font-size: 25px; } }
-  .form-login .controls {
+  #formlogin .controls {
     width: 100%;
     border: 0,5px solid #017bab;
     margin-bottom: 7,5px;
@@ -249,14 +249,14 @@ div iframe {
     font-size: 7px;
     font-weight: bold; }
     @media all and (min-width: 769px) {
-      .form-login .controls {
+      #formlogin .controls {
         width: 100%;
         border: 1px solid #017bab;
         margin-bottom: 15px;
         padding: 10px 10px;
         background: #ffffff;
         font-size: 14px; } }
-  .form-login .button {
+  #formlogin .button {
     width: 100%;
     height: 20px;
     background: #017bab;
@@ -265,27 +265,27 @@ div iframe {
     margin-bottom: 8px;
     font-size: 10px; }
     @media all and (min-width: 769px) {
-      .form-login .button {
+      #formlogin .button {
         width: 100%;
         height: 40px;
         margin-bottom: 16px;
         font-size: 20px; } }
-  .form-login p {
+  #formlogin p {
     height: 20px;
     text-align: center;
     border-bottom: 0,5px solid; }
     @media all and (min-width: 769px) {
-      .form-login p {
+      #formlogin p {
         height: 40px;
         border-bottom: 1px solid; } }
-  .form-login a {
+  #formlogin a {
     color: white;
     text-decoration: none;
     font-size: 12.5px; }
     @media all and (min-width: 769px) {
-      .form-login a {
+      #formlogin a {
         font-size: 25px; } }
-    .form-login a:hover {
+    #formlogin a:hover {
       text-decoration: underline; }
 
 /* Tabla de talles */

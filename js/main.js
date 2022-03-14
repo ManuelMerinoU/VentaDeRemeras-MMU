@@ -114,9 +114,24 @@ for(let i = 0; i < cantidadProductos; i++ ){
 }
 // con alt gr + al lado del entre ``
 
-let bienvenido = document.createElement("h2")
+let bienvenido = document.createElement("h2");
 
 bienvenido.innerText = "Bienvenido a Mi Pagina web"
 
-document.body.prepend(bienvenido)
+document.body.prepend(bienvenido);
 
+// Formulario
+
+let formLogin = document.getElementById("formlogin");
+
+formLogin.addEventListener ("submit", validarformulario);
+
+function validarformulario (e) {
+    e.preventDefault ();
+
+    let formlogin = e.target
+
+    console.log (e.target);
+    console.log (formlogin.children [ 0].value);
+    console.log (formlogin.children [ 1].value);
+}
