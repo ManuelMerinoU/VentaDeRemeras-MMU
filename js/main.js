@@ -37,15 +37,6 @@ const sobreMi = {
 }
 console.log(sobreMi);
 
-let botonInfo = document.querySelector ('btninfo')
-
-botonInfo = addEventListener ('click', infopag)
-
-function infopag(){
-    alert("Esta es una pagina que le estoy desarrollando a una amiga para su proyecto personal, el cual consta en la venta de remeras grabadas con cualquier tipo de diseño, Calcos y en un futuro dibujos o ilustrasiones propias")
-}
-
-
 /*let remeras= 'Remeras' 
 let stockRemeras= 100 
 let preRem= 950*/
@@ -59,6 +50,7 @@ const tlp = ["remeras", 'calcos', 'dibujos'];
 console.log(tlp.length);
 console.log(tlp.indexOf('calcos'));
 
+localStorage.setItem("productos", JSON.stringify (tlp));
 
 function Productos (nombreProducto, stockProducto, precioProducto){
     this.nombre = nombreProducto;
@@ -122,16 +114,29 @@ document.body.prepend(bienvenido);
 
 // Formulario
 
-let formLogin = document.getElementById("formlogin");
+let formLogin = document.getElementById ("formlogin");
 
-formLogin.addEventListener ("submit", validarformulario);
+formLogin.addEventListener("submit", validarformulario);
 
 function validarformulario (e) {
     e.preventDefault ();
 
-    let formlogin = e.target
+    let formLogin = e.target
 
     console.log (e.target);
-    console.log (formlogin.children [ 0].value);
-    console.log (formlogin.children [ 1].value);
+    console.log (formLogin.children [ 0].value);
+    console.log (formLogin.children [ 1].value);
+    console.log (formLogin.children [ 2].value);
+}
+
+localStorage.setItem("formLoginUs", JSON.stringify(formLogin));
+
+//Boton info index
+
+let botonInfo = document.querySelector ('.btninfo')
+
+botonInfo.addEventListener ('click', infopag);
+
+function infopag(){
+    alert("Esta es una pagina que le estoy desarrollando a una amiga para su proyecto personal, el cual consta en la venta de remeras grabadas con cualquier tipo de diseño, Calcos y en un futuro dibujos o ilustrasiones propias")
 }
