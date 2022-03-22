@@ -131,7 +131,7 @@ function validarformulario (e) {
 
 localStorage.setItem("formLoginUs", JSON.stringify(formLogin));
 
-//Boton info index
+//  Boton info
 
 let botonInfo = document.querySelector ('.btninfo')
 
@@ -142,7 +142,7 @@ function infopag(){
 }
 
 
-//Productos
+//      CARRITO 
 
 const divisa = '$';
 let carritoarr =[];
