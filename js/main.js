@@ -45,6 +45,7 @@ let preRem= 950*/
 // let stockCalcos= 200  
 // let preCal= 250
 
+
 const tlp = ["remeras", 'calcos', 'dibujos'];
 
 console.log(tlp.length);
@@ -112,6 +113,21 @@ bienvenido.innerText = "Bienvenido a Mi Pagina web"
 
 document.body.prepend(bienvenido);
 
+//  Boton info
+
+let botonInfo = document.querySelector ('.btninfo')
+
+botonInfo.addEventListener ('click', infopag);
+
+function infopag(){
+    Swal.fire({
+        title: 'Bienvenido',
+        text: 'Esta es una pagina que le estoy desarrollando a una amiga para su proyecto personal, el cual consta en la venta de remeras grabadas con cualquier tipo de diseño, Calcos y en un futuro dibujos o ilustrasiones propias',
+        icon: 'info',
+        confirmButtonText: 'cool'
+    })
+}
+
 // Formulario
 
 let formLogin = document.getElementById ("formlogin");
@@ -130,17 +146,6 @@ function validarformulario (e) {
 }
 
 localStorage.setItem("formLoginUs", JSON.stringify(formLogin));
-
-//  Boton info
-
-let botonInfo = document.querySelector ('.btninfo')
-
-botonInfo.addEventListener ('click', infopag);
-
-function infopag(){
-    alert("Esta es una pagina que le estoy desarrollando a una amiga para su proyecto personal, el cual consta en la venta de remeras grabadas con cualquier tipo de diseño, Calcos y en un futuro dibujos o ilustrasiones propias")
-}
-
 
 //      CARRITO 
 
