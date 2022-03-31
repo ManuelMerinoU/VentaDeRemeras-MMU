@@ -113,7 +113,8 @@ bienvenido.innerText = "Bienvenido a Mi Pagina web"
 
 document.body.prepend(bienvenido);
 
-//  Boton info
+
+//                                      Boton info
 
 let botonInfo = document.querySelector ('.btninfo')
 
@@ -128,7 +129,9 @@ function infopag(){
     })
 }
 
-// Formulario
+
+
+//                                      Formulario
 
 let formLogin = document.getElementById ("formlogin");
 
@@ -147,7 +150,9 @@ function validarformulario (e) {
 
 localStorage.setItem("formLoginUs", JSON.stringify(formLogin));
 
-//      CARRITO 
+
+
+//                                       CARRITO 
 
 const divisa = '$';
 let carritoarr =[];
@@ -156,30 +161,18 @@ const contenedorDeLosProductos = document.getElementById("contPrdt");
 const carrito = document.querySelector("#listafc");
 const TotalFc = document.querySelector("#totalfc");
 const botonBorrar = document.querySelector("#borrarfc");
+const botonComprar = document.querySelector("#comprarfc");
 const miLocalStorage = window.localStorage;
 
 
 
-const listaDeProductos = [
-    {
-        id:1,
-        nombre: "Remeras",
-        precio: 950
-    },
+const listaDeProductos = []
 
-    {
-        id:2,
-        nombre: "Calcos",
-        precio: 250
-    },
+// ''                                 FETCH
 
-    {
-        id:3,
-        nombre: "Dibujos",
-        precio: 550
-    }
-
-]
+fetch('data.json')
+.then((prd) => prd.JSON())
+.then((infoprd) => listaDeProductos =infoprd )
 
 function cardsProductos () {
 
@@ -227,6 +220,12 @@ function agregarProductosCarrito (e){
 
     guardarCarritoEnLocalStorage();
 
+    Toastify({
+        text: `Agregaste este Producto al Carrito`,
+        duration: 2000,
+        className:"toastitext"
+    }).showToast();
+
 }
 
 function rendercarrito () {
@@ -239,7 +238,7 @@ function rendercarrito () {
 
     const borraDuplicados = [...new Set(carritoarr)];
 
-    //console.log(borraDuplicados);
+    console.log(borraDuplicados);
 
     //
 
@@ -321,6 +320,27 @@ function vaciarCarrito() {
 
 }
 
+/**
+* Comprar el carrito y vuelve a dibujarlo
+*/
+function comprarCarrito() {
+    // Limpiamos los productos guardados
+    carritoarr = [];
+    // Renderizamos los cambios
+    rendercarrito();
+
+    Toastify({
+        text: "Gracias por tu Compra!!!",
+        duration: 2000,
+        style:{
+            background:"#39ee0c",
+            color:"#fff"
+        },
+        className:"toastitext"
+    }).showToast();
+
+}
+
 function guardarCarritoEnLocalStorage () {
     miLocalStorage.setItem('carrito', JSON.stringify(carritoarr));
 }
@@ -335,6 +355,7 @@ function cargarCarritoDeLocalStorage () {
 
 // Eventos
 botonBorrar.addEventListener('click', vaciarCarrito);
+botonComprar.addEventListener('click', comprarCarrito);
 
 // Inicio
 cargarCarritoDeLocalStorage();

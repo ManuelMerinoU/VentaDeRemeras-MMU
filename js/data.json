@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "nombre": "Remeras",
+        "precio": 950
+    },
+
+    {
+        "id":2,
+        "nombre": "Calcos",
+        "precio": 250
+    },
+
+    {
+        "id":3,
+        "nombre": "Dibujos",
+        "precio": 550
+    }
+
+]

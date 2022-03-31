@@ -1040,8 +1040,8 @@ nav {
 
 /* CARRITO HTML + JS*/
 #cajaflex {
-  display: flex;
-  justify-content: space-between;
+  display: inline-flex;
+  flex-direction: column;
   background-color: #a39f9f;
   width: 800px;
   height: 800px;
@@ -1058,11 +1058,14 @@ nav {
   color: #ff05ac8a; }
 
 #contPrdt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   background-color: #0077ff; }
 
 #fc {
   font-size: 30px;
-  color: #ff0000; }
+  color: #1b0cee; }
 
 #cajaflex .txttotalfc {
   font-size: 24px;
@@ -1081,6 +1084,24 @@ nav {
   -o-border-radius: 5px;
   width: 200px;
   height: 50px; }
+
+#comprarfc {
+  margin-top: 30px;
+  font-size: 28px;
+  color: #fff;
+  background-color: #0077ff;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  width: 200px;
+  height: 50px; }
+
+/* TOASTIFY*/
+.toastitext {
+  font-size: 20px; }
 
 /*redes sociales*/
 #redessoc {
