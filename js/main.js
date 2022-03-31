@@ -64,7 +64,7 @@ const producto2 = new Productos('Calcos', 200, 250);
 
 let cantidadProductos = parseInt(prompt("Ingrese la Cantidad de Productos Distintos que desea, ENTRE 1 y 2 (Los productos que tenemos son Remeras o Calcos), o marque dos veces el  mismo en el caso que su compra supere el stock deseado."))
 
-let compra= prompt("En el caso de que quiera Comprar nuestros productos, ¿Desea Remeras o Calcos? ")
+let compra= prompt("En el caso de que quiera Comprar nuestros productos, ¿Desea remeras o calcos? ")
 
 function stock(cantidad, producto, stock){
     alert("No tenemos Disponible la cantidad total de " + cantidad + " " + producto + ", Puede comprar un Maximo de " + stock)
@@ -150,6 +150,22 @@ function validarformulario (e) {
 
 localStorage.setItem("formLoginUs", JSON.stringify(formLogin));
 
+// ''                                 FETCH
+
+const mejoresusers = document.querySelector(".mejoresusers");
+
+fetch('https://jsonplaceholder.typicode.com/users')
+.then(response => response.json())
+.then(json =>{ 
+    json.forEach(users =>{
+        const p = document.createElement('p')
+        p.innerHTML = users.name
+        //console.log(users.name)
+        mejoresusers.appendChild(p)
+    })
+    console.log(json)
+});
+
 
 
 //                                       CARRITO 
@@ -164,9 +180,7 @@ const botonBorrar = document.querySelector("#borrarfc");
 const botonComprar = document.querySelector("#comprarfc");
 const miLocalStorage = window.localStorage;
 
-
-
-let listaDeProductos = [
+const listaDeProductos = [
     {
         id:1,
         nombre: "Remeras",
@@ -184,22 +198,14 @@ let listaDeProductos = [
     }
 
 ]
-
-//let listaDeProductos = []
-
 // ''                                 FETCH
 
-fetch('https://jsonplaceholder.typicode.com/posts')
-.then((response) => response.json())
-.then((json) => console.log(json));
-
 fetch('data.json')
-.then((resp) => resp.json())
-.then((infoprd) => console.log (infoprd));
-
-fetch('data.json')
-.then((resp) => resp.json())
-.then((infoprd) => listaDeProductos = infoprd);
+.then(resp => resp.json())
+.then(infoprd =>{ 
+    listaDeProductos = infoprd
+    console.log (infoprd)
+})
 
 
 function cardsProductos () {
