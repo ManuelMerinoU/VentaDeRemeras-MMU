@@ -166,13 +166,41 @@ const miLocalStorage = window.localStorage;
 
 
 
-const listaDeProductos = []
+let listaDeProductos = [
+    {
+        id:1,
+        nombre: "Remeras",
+        precio: 950
+    },
+    {
+        id:2,
+        nombre: "Calcos",
+        precio: 250
+    },
+    {
+        id:3,
+        nombre: "Dibujos",
+        precio: 550
+    }
+
+]
+
+//let listaDeProductos = []
 
 // ''                                 FETCH
 
+fetch('https://jsonplaceholder.typicode.com/posts')
+.then((response) => response.json())
+.then((json) => console.log(json));
+
 fetch('data.json')
-.then((prd) => prd.JSON())
-.then((infoprd) => listaDeProductos =infoprd )
+.then((resp) => resp.json())
+.then((infoprd) => console.log (infoprd));
+
+fetch('data.json')
+.then((resp) => resp.json())
+.then((infoprd) => listaDeProductos = infoprd);
+
 
 function cardsProductos () {
 
