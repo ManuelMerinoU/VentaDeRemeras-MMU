@@ -167,13 +167,17 @@
     bottom: 20px;
     right: 20px;
     padding: 15px 20px;
-    background: rgb(138, 138, 138);
-    color: rgb(0, 0, 0);
+    background: #8a8a8a;
+    color: #000000;
     border: 1px solid white;
     border-radius: 100%;
     cursor: pointer;
     transform: translateY(100px);
     transition: 0.3s;
+}
+
+.iconup{
+    color: #000;
 }
   
 .btn-scrolltop-on {
