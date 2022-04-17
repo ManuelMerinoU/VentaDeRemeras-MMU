@@ -241,7 +241,7 @@ div iframe {
         border-bottom: 1px solid;
         font-size: 25px; } }
   #formlogin .controls {
-    width: 100%;
+    width: 187px;
     border: 0,5px solid #017bab;
     margin-bottom: 7,5px;
     padding: 5px 5px;
@@ -250,7 +250,7 @@ div iframe {
     font-weight: bold; }
     @media all and (min-width: 769px) {
       #formlogin .controls {
-        width: 100%;
+        width: 377px;
         border: 1px solid #017bab;
         margin-bottom: 15px;
         padding: 10px 10px;
@@ -263,7 +263,8 @@ div iframe {
     border: none;
     color: white;
     margin-bottom: 8px;
-    font-size: 10px; }
+    font-size: 10px;
+    cursor: pointer; }
     @media all and (min-width: 769px) {
       #formlogin .button {
         width: 100%;
@@ -1042,9 +1043,9 @@ nav {
 #cajaflex {
   display: inline-flex;
   flex-direction: column;
-  background-color: #a39f9f;
+  background-color: #f50d8138;
   width: 600px;
-  height: 400px;
+  height: 600px;
   padding: 30px;
   margin: 20px;
   border-radius: 10px;
@@ -1055,13 +1056,20 @@ nav {
 
 #carritoh1 {
   font-size: 36px;
-  color: #ff05ac8a; }
+  color: #000;
+  text-align: center; }
 
 #contPrdt {
+  height: 200px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: #0077ff; }
+  background-color: #795774;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px; }
 
 #fc {
   font-size: 30px;
@@ -1074,8 +1082,8 @@ nav {
 #borrarfc {
   margin-top: 30px;
   font-size: 28px;
-  color: #fff;
-  background-color: #0077ff;
+  color: #000000;
+  background-color: #af000065;
   cursor: pointer;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -1084,12 +1092,15 @@ nav {
   -o-border-radius: 5px;
   width: 200px;
   height: 50px; }
+  #borrarfc:hover {
+    color: #ffffff;
+    transition: all .3s; }
 
 #comprarfc {
   margin-top: 30px;
   font-size: 28px;
-  color: #fff;
-  background-color: #0077ff;
+  color: #000000;
+  background-color: #00ff155d;
   cursor: pointer;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -1098,6 +1109,49 @@ nav {
   -o-border-radius: 5px;
   width: 200px;
   height: 50px; }
+  #comprarfc:hover {
+    color: #ffffff;
+    transition: all .3s; }
+
+#listafc button {
+  width: 25px;
+  color: #fff;
+  background-color: #ff0000;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px; }
+  #listafc button:hover {
+    color: #ff0000;
+    background-color: #fff;
+    transition: all .3s; }
+
+.tituloh3 {
+  color: #fff;
+  font-size: 28px; }
+
+.preciop {
+  color: #fff;
+  font-size: 28px; }
+
+.boton {
+  width: 100px;
+  height: 50px;
+  color: #000;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background-color: #00ccff77; }
+  .boton:hover {
+    color: #ffffff;
+    transition: all .3s; }
 
 /* TOASTIFY*/
 .toastitext {
@@ -1105,16 +1159,33 @@ nav {
 
 /* FETCH FORM */
 .mejoresusers {
-  display: inline;
+  display: inline-grid;
   width: 700px;
   height: 500px;
   font-size: 20px; }
   .mejoresusers h3 {
-    font-size: 28px; }
+    font-size: 36px; }
   .mejoresusers p {
     text-align: center;
     color: #000;
     font-size: 20px; }
+
+/*   BTN PA ARRIBA   */
+.btn-scrolltop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px 20px;
+  background: #8a8a8a;
+  color: black;
+  border: 1px solid white;
+  border-radius: 100%;
+  cursor: pointer;
+  transform: translateY(100px);
+  transition: 0.3s; }
+
+.btn-scrolltop-on {
+  transform: translateY(0); }
 
 /*redes sociales*/
 #redessoc {

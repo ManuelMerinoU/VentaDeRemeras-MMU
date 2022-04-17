@@ -1,7 +1,7 @@
 // ''
 
 
-function saludo(nombre){
+/*function saludo(nombre){
     alert("HOLA " + nombre + " Me encuentro Trabajando en esta Pagina =)");
 }
 
@@ -37,9 +37,9 @@ const sobreMi = {
 }
 console.log(sobreMi);
 
-/*let remeras= 'Remeras' 
-let stockRemeras= 100 
-let preRem= 950*/
+//let remeras= 'Remeras' 
+//let stockRemeras= 100 
+//let preRem= 950
 
 // let calcos= 'Calcos' 
 // let stockCalcos= 200  
@@ -104,7 +104,7 @@ for(let i = 0; i < cantidadProductos; i++ ){
         alert("No Contamos con ese Producto, Por favor Vuelva a Poner el Producto que desea, Muchas Gracias!!!")
     }
 
-}
+}*/
 // con alt gr + al lado del entre ``
 
 let bienvenido = document.createElement("h2");
@@ -125,11 +125,9 @@ function infopag(){
         title: 'Bienvenido',
         text: 'Esta es una pagina que le estoy desarrollando a una amiga para su proyecto personal, el cual consta en la venta de remeras grabadas con cualquier tipo de diseño, Calcos y en un futuro dibujos o ilustrasiones propias',
         icon: 'info',
-        confirmButtonText: 'cool'
+        confirmButtonText: 'Genial!'
     })
 }
-
-
 
 //                                      Formulario
 
@@ -146,6 +144,13 @@ function validarformulario (e) {
     console.log (formLogin.children [ 0].value);
     console.log (formLogin.children [ 1].value);
     console.log (formLogin.children [ 2].value);
+
+    Swal.fire({
+        title: 'Bienvenido',
+        text: 'Por el Momento quedara registrado en Nuestra Base de datos, pero no tendra una cuenta propia',
+        icon: 'warning',
+        confirmButtonText: 'Genial!'
+    })
 }
 
 localStorage.setItem("formLoginUs", JSON.stringify(formLogin));

@@ -50,12 +50,13 @@ const listaDeProductos = [
 //let listaDeProductos = []
 // ''                                 FETCH
 
-fetch('../data.json')
+/*fetch('../data.json')
 .then(resp => resp.json())
 .then(infoprd =>{ 
     listaDeProductos = infoprd
     console.log (infoprd)
-})
+})*/
+
 
 
 function cardsProductos () {
@@ -144,7 +145,7 @@ function rendercarrito () {
         miNodo.classList.add('list-group-item');
         miNodo.textContent = `${numeroUnidadesItem} x ${miItem[0].nombre} - ${miItem[0].precio}${divisa}`;
         // Boton de borrar
-        const miBoton = document.createElement('buttonrr');
+        const miBoton = document.createElement('button');
         miBoton.classList.add('btnbrr');
         miBoton.textContent = 'X';
         miBoton.style.marginLeft = '1rem';
@@ -172,6 +173,16 @@ function rendercarrito () {
     rendercarrito();
     // Actualizamos el LocalStorage
     guardarCarritoEnLocalStorage();
+
+    Toastify({
+        text: "Borraste este Producto!!!",
+        duration: 2000,
+        style:{
+            background:"#ff0000",
+            color:"#fff"
+        },
+        className:"toastitext"
+    }).showToast();
 
 }
 
@@ -255,3 +266,23 @@ botonComprar.addEventListener('click', comprarCarrito);
 cargarCarritoDeLocalStorage();
 cardsProductos();
 rendercarrito();
+
+
+//                          BTN PA ARRIBA
+
+const btn_scrolltop = document.getElementById("btn_scrolltop")
+      btn_scrolltop.addEventListener('click', () => {
+        window.scrollTo(0, 0)
+    })
+
+    window.onscroll = () => {
+      add_btn_scrolltop()
+    }
+
+    const add_btn_scrolltop = () => {
+      if (window.scrollY < 300) {
+        btn_scrolltop.classList.remove("btn-scrolltop-on")
+    } else {
+        btn_scrolltop.classList.add("btn-scrolltop-on")
+    }
+}

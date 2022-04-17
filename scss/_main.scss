@@ -308,7 +308,7 @@ div{
     }
 
     .controls {
-        width: 100%;
+        width: 187px;
         border: 0,5px solid #017bab;
         margin-bottom: 7,5px;
         padding: 5px 5px;
@@ -317,7 +317,7 @@ div{
         font-weight: bold;
 
         @media all and (min-width:$mediaq-md){
-            width: 100%;
+            width: 377px;
             border: 1px solid #017bab;
             margin-bottom: 15px;
             padding: 10px 10px;
@@ -334,6 +334,7 @@ div{
         color: white;
         margin-bottom: 8px;
         font-size: 10px;
+        cursor: pointer;
 
         @media all and (min-width:$mediaq-md){
             width: 100%;
